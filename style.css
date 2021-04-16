@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
+}
+
+#divtitle {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+a {
+	text-decoration: none;
+}
+.title {
+	color: #245250;
+	margin-top: 10px;
+	font-family: 'Rubik', sans-serif;
+}
+.Agence-text {
+	font-size: 64px;
+	font-family: Rowdies;
+	font-style: normal;
+	font-weight: normal;
+	line-height: 79px;
+	text-align: center;
+	-webkit-text-stroke: 4px #245250;
+	paint-order: stroke fill;
+	color: azure;
+}
+#ant1 {
+	font-size: 70px;
+	font-family: Saira Stencil One;
+	-webkit-text-stroke: 5px #18a0fb;
+	paint-order: stroke fill;
+}
+#ant2 {
+	background-color: #18a0fb62;
+}
+#ank2:hover {
+	background-color: #956351;
+	color: #fff;
+	border-color: #fff;
+}
+#ant2:hover {
+	background-color: #18a0fb;
+	color: #fff;
+	border-color: #fff;
+}
+#ank {
+	background-image: url(./img/ankara.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#ank1 {
+	font-size: 70px;
+	font-family: Saira Stencil One;
+	-webkit-text-stroke: 5px #956351;
+	paint-order: stroke fill;
+}
+#ank2 {
+	background-color: #9563514f;
+}
+
+#logo {
+	width: 48%;
+}
+#logo img {
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	color: azure;
+	margin: 10px;
+	margin-left: 30px;
+}
+
+#tl {
+	font-size: 50px;
+}
+
+#contact {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.coldiv {
+	width: 58%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 15%;
+}
+.tla {
+	width: 200px;
+	height: 45px;
+	background: rgba(27, 105, 101, 0.51);
+	border: 4px solid #ffffff;
+	border-radius: 10px;
+	color: azure;
+	font-family: 'Rubik', sans-serif;
+	line-height: 20px;
+	font-size: large;
+}
+#tl3 {
+	margin-left: -60px;
+}
+#all2 {
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+#btnsend {
+	background: #1f4a49;
+	color: azure;
+	font-family: Rowdies;
+	font-weight: 300;
+	font-size: 45px;
+	width: 250px;
+	height: 70px;
+	/* display: flex;
+	justify-content: center; */
+	text-align: center;
+	line-height: 58px;
+	margin: 100px;
+	margin-bottom: 135px;
+	border: 2px solid #ffffff;
+	border-radius: 8px;
+}
+#btnsend:hover {
+	background-color: rgba(240, 255, 255, 0.952);
+	border: 2px solid #245250;
+	font-family: Rowdies;
+	color: #245250;
+}
+#all {
+	width: 75%;
+	height: 100%;
+}
+#notediv {
+	width: 70%;
+}
+#note {
+	height: 80px;
+	width: 300px;
+}
+#navbar {
+	width: 100%;
+	height: 60px;
+	background-color: #2f2f2f;
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu {
+	width: 48%;
+	display: flex;
+	flex-direction: row;
+}
+
+ul {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	font-family: 'Rubik', sans-serif;
+	font-size: 20px;
+}
+ul li a {
+	padding: 10px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: antiquewhite;
+}
+
+.menu a:hover {
+	background-color: rgb(236, 236, 236);
+	color: #2f2f2f;
+	border-radius: 15px;
+	font-size: 22px;
+}
+
+.phistanbul {
+	background-image: url(./img/istanbul.jpg);
+	width: 100%;
+	height: 624px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#ant {
+	background-image: url(./img/antalya.jpg);
+}
+#btndiv {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+#content-ph {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+.btn {
+	width: 507px;
+	height: 90px;
+	background: rgba(27, 105, 101, 0.51);
+	border: 4px solid #ffffff;
+	border-radius: 20px;
+	font-size: 50px;
+	line-height: 79px;
+	font-family: 'Saira Stencil One', cursive;
+	color: azure;
+	text-decoration: none;
+	text-align: center;
+}
+#btnis {
+	width: 375px;
+}
+#btn:hover {
+	background-color: rgba(240, 255, 255, 0.671);
+	border: 4px solid #245250;
+	font-family: 'Saira Stencil One', cursive;
+	color: #245250;
+}
+.btn:hover {
+	background-color: rgba(240, 255, 255, 0.671);
+	border: 4px solid #245250;
+	font-family: 'Saira Stencil One', cursive;
+	color: #245250;
+}
+#divp {
+	font-family: Rowdies;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 44px;
+	width: 100%;
+	line-height: 55px;
+	display: flex;
+	margin-top: 30px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.05em;
+	-webkit-text-stroke: 5px #245250;
+	paint-order: stroke fill;
+	color: #ffffff;
+}
+
+footer {
+	width: 100%;
+	height: 50px;
+	background-color: #2f2f2f;
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+footer p {
+	color: azure;
+
+	font-family: Rowdies;
+	font-size: 12px;
+	line-height: 16px;
+}
+#info1 {
+	padding-left: 5px;
+	width: 48%;
+}
+
+#info2 {
+	padding-right: 5px;
+	/* width: 48%; */
+	display: flex;
+	align-items: flex-end;
+	padding-bottom: 3px;
+}
+#aboutpic {
+	width: 100%;
+	height: 650px;
+	flex-direction: column;
+	align-items: center;
+}
+#aboutus {
+	background-color: rgba(255, 255, 255, 0.678);
+	width: 60%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+}
+#aboutus p {
+	width: 75%;
+	color: #245250ee;
+	font-size: 45px;
+	font-family: Rubik;
+	border: dashed 4px #245250;
+	padding: 15px;
+}
+
+/* menu resp */
+@media (min-width: 500px) {
+	.right {
+		display: flex;
+		width: 50%;
+	}
+	.menu {
+		display: flex;
+		justify-content: space-evenly;
+		gap: 20px;
+		list-style: none;
+		width: 100%;
+	}
+
+	.btn-menu {
+		display: none;
+	}
+}
+
+@media (max-width: 499px) {
+	.right {
+		width: 50%;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin-right: 20px;
+	}
+	.menu {
+		position: fixed;
+		top: 60px;
+		right: -1000px;
+		background-color: white;
+		list-style: none;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding: 20px;
+		width: 300px;
+		transition: all 0.3s;
+	}
+
+	.menu.open {
+		top: 119px;
+		right: 0px;
+	}
+
+	.menu a {
+		font-size: 1.5em;
+		color: #001068;
+	}
+	.menu a:hover {
+		font-size: 1.5em;
+		color: #001068;
+	}
+
+	.btn-menu {
+		width: 45px;
+		height: 45px;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		justify-content: center;
+		position: relative;
+	}
+
+	.btn-menu span {
+		display: block;
+		width: 100%;
+		height: 5px;
+		background-color: rgb(238, 238, 238);
+		opacity: 1;
+		transition: all 0.3s;
+	}
+
+	.btn-menu.open .span-1 {
+		transform: rotate(45deg);
+		position: absolute;
+		top: 22px;
+	}
+
+	.btn-menu.open .span-2 {
+		opacity: 0;
+	}
+
+	.btn-menu.open .span-3 {
+		transform: rotate(-45deg);
+		position: absolute;
+		top: 22px;
+	}
+}
+.phistanbul {
+	background-repeat: no-repeat;
+background-image: cover;
+background-attachment: fixed;
+}
+@media screen and (max-width: 500px) {
+	.menu {
+		align-items: start;
+	}
+	.Agence-text {
+		font-size: 40px;
+	}
+	.btn {
+		width: 270px;
+		height: 70px;
+		font-size: 26px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	#divp {
+		font-size: 27px;
+	}
+	footer p {
+		line-height: 12px;
+		padding: 2px;
+		font-size: xx-small;
+	}
+	#btnis {
+		width: 110px;
+		height: 50px;
+		font-size: larger;
+	}
+	#btnsend {
+		font-size: 21px;
+		width: 100%;
+		height: 50px;
+		line-height: 57px;
+		border-radius: 8px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 30px;
+		margin-bottom: 78px;
+	}
+	.coldiv {
+		width: 100%;
+	}
+	#tl {
+		font-size: 21px;
+	}
+	.tla {
+		width: 160px;
+		height: 40px;
+	}
+	#all {
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		align-items: center;
+	}
+	#tl3 {
+		margin-left: 0;
+	}
+
+	#note {
+		height: 80px;
+		width: 170px;
+	}
+	#notediv {
+		width: 100%;
+		width: 100%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	#aboutus {
+		width: 80%;
+		height: 285px;
+	}
+	#aboutus p {
+		width: 82%;
+		font-size: 19px;
+	}
+}
